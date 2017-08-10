@@ -1,7 +1,11 @@
 ## Simple Infinite Terrain
+
 ---
+
 Creates an endless flat plane that loads in tiles as the player moves around the landscape. Somewhat boring to look at by itself but is useful as a starting 'sandbox' for other projects. 
+
 ---
+
 1. Create an empty GameObject (Cmd-Shift-N), name it “Landscape", and attach the “InfiniteTerrainGenerator.cs” script.
 
 2. Create a new Plane from the GameObject -> 3D Object menu, name it “SmartPlane”, and attach the “GenerateTerrain.cs” script.
