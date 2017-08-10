@@ -8,12 +8,12 @@ Creates an endless flat plane that loads in tiles as the player moves around the
 
 1. Create an empty GameObject (Cmd-Shift-N), name it “Landscape", and attach the “InfiniteTerrainGenerator.cs” script.
 
-2. Create a new Plane from the GameObject -> 3D Object menu, name it “SmartPlane”, and attach the “GenerateTerrain.cs” script.
+2. Create a new Plane from the GameObject -> 3D Object menu, name it “SmartPlane”, and attach the “GenerateTerrain.cs” script. Drag it out of the scene and into the Assets folder as a prefab. 
 
 3. Go to Assets -> Import Package -> Characters. Deselect the ThirdPersonCharacter and RollerBall options.  
 Import the FPSCharacter and drag the FPSController prefab into the scene.
 
-4. Edit the camera within the FPS Character to increase the Far clipping plane (maybe 2000 - 5000).
+4. Open the Landscape in Inspector. Drag the FPSController to the "Player" slot and the SmartPlane prefab to the "Plane" slot.
 
 5. Set the public variables on Landscape to your preferred values (suggested: SCALE = 5, RADIUS = 10, PLANE_SIZE_IN_QUADS = 20). 
 
